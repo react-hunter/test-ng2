@@ -1,0 +1,8 @@
+.list-group-item { cursor: pointer; }
+.jumbotron .glyphicon {
+    font-size: 80px;
+}
+.gocrazy {
+    background: red;
+    color: #fff;
+}
