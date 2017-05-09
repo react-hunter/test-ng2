@@ -1,6 +1,6 @@
 <form #form="ngForm" (ngSubmit)="onSubmit()" *ngIf="active">
             
-    {{ form.valid }}
+    <!--{{ form.valid }}-->
 
     <div class="form-group" [ngClass]="{ 'has-error': name.invalid && name.touched }">
         <input type="text" class="form-control" name="name" placeholder="Name" required
@@ -13,6 +13,6 @@
         <span class="help-block" *ngIf="username.invalid && username.touched"> Username is required.</span>
     </div>
     <button type="submit" class="btn btn-lg btn-block btn-primary" [disabled]="form.invalid" >
-        Create a User
+        Create User
     </button>
 </form>
